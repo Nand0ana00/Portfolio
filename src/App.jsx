@@ -6,6 +6,7 @@ import dbms from './assets/DBMS.png'
 import login from './assets/login.png'
 import { speak } from "./useSpeech"
 import ParticlesBackground from "./ParticlesBackground"
+import { speakQueue } from "./speakQueue"
 
 import './App.css'
 
@@ -19,7 +20,7 @@ const [isUserScrolling, setIsUserScrolling] = useState(false)
 const speakText = (text) => {
   setSpeaking(true)
 
-  speak(text, () => {
+  speakQueue(text, () => {
     setSpeaking(false)
   })
 }
@@ -50,41 +51,41 @@ const scrollToSection = (id) => {
 const startTour = () => {
   setSpeaking(true)
 
-  speak("Welcome to my AI-powered portfolio. Let me give you a guided tour.", () => {
+  speakQueue("Welcome to my AI-powered portfolio. Let me give you a guided tour.", () => {
     scrollToSection("about")
 
     setTimeout(() => {
-      speak(
+      speakQueue(
         "I am a Computer Science Engineering student focused on web development and AI systems.",
         () => {
           scrollToSection("education")
 
           setTimeout(() => {
-            speak(
+            speakQueue(
               "I am currently a fourth year student at NSS College of Engineering, Palakkad.",
               () => {
                 scrollToSection("skills")
 
                 setTimeout(() => {
-                  speak(
+                  speakQueue(
                     "My strongest skills include HTML, CSS, JavaScript, React, Java, Python, MongoDB and Git.",
                     () => {
                       scrollToSection("projects")
 
                       setTimeout(() => {
-                        speak(
+                        speakQueue(
                           "Here are my featured projects including Coffee Site, Java Employee Dashboard, CyberScope SOC Dashboard, Offline Debugger and Login Page UI.",
                           () => {
                             scrollToSection("certifications")
 
                             setTimeout(() => {
-                              speak(
+                              speakQueue(
                                 "I have completed certifications in Artificial Intelligence, Generative AI, AI Agents, NLP, Statistics for Data Science, Supervised Learning, Java, SQL and IBM Design Thinking.",
                                 () => {
                                   scrollToSection("contact")
 
                                   setTimeout(() => {
-                                    speak(
+                                    speakQueue(
                                       "You can contact me via email or GitHub. Thank you for visiting my portfolio.",
                                       () => {
                                         setSpeaking(false)
