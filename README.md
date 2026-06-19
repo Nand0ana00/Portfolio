@@ -1,16 +1,88 @@
-# React + Vite
+# 🌐 AI-Powered Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive developer portfolio built using **React + Vite**, featuring voice-guided navigation, smooth scrolling, animated UI, and a clean cyber-themed design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎤 AI Voice Tour (Text-to-Speech guided portfolio walkthrough)
+- 🤖 Auto Mode (explains sections while scrolling)
+- ⚡ Smooth section navigation
+- 🎯 Interactive project cards with voice explanation
+- 🌌 Animated particle background
+- 📱 Fully responsive design (mobile + desktop)
+- 🔗 Live project demos integration
+- 🎨 Modern glassmorphism UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Sections Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- About Me
+- Education
+- Skills
+- Projects
+- Certifications
+- Contact
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- Web Speech API
+- React TSParticles (background animation)
+
+---
+
+## 🚀 Live Demo
+
+👉 [View Portfolio](https://your-live-link-here.com)
+
+---
+
+## 📂 Projects Highlighted
+
+- 🛒 Coffee Shop Website (Responsive UI)
+- 🧑‍💻 Java Employee Dashboard (CRUD system)
+- 🛡 CyberScope SOC Dashboard (Cyber attack visualization UI)
+- 🐞 Offline Debugger Tool (Lightweight debugging system)
+- 🔐 Login Page UI (Authentication interface)
+
+---
+
+## 🎤 AI Features
+
+This portfolio includes a custom voice assistant that:
+
+- Greets users with a guided tour
+- Explains each section automatically
+- Reads project descriptions on click
+- Supports manual + auto narration modes
+
+---
+
+## 📸 Preview
+
+> Add screenshots here later for better presentation
+
+---
+
+## 📌 Installation & Setup
+
+```bash
+# clone repo
+git clone https://github.com/your-username/portfolio.git
+
+# go into project
+cd portfolio
+
+# install dependencies
+npm install
+
+# run project
+npm run dev
