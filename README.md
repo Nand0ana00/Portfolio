@@ -41,7 +41,7 @@ A modern, interactive developer portfolio built using **React + Vite**, featurin
 
 ## 🚀 Live Demo
 
-👉 [View Portfolio](https://your-live-link-here.com)
+👉 [View Portfolio](https://portfolio-two-neon-0md123qcjn.vercel.app/)
 
 ---
 
