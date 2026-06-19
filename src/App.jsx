@@ -1,5 +1,4 @@
 import { useState,useEffect} from 'react'
-import AvatarScene from "./AvatarScene"
 import cyberScope from './assets/cyberScope.png'
 import coffee from './assets/coffee.png'
 import debug from './assets/debugger.png'
@@ -480,7 +479,9 @@ const startTour = () => {
       )
     }}
   >
-    <AvatarScene speaking={speaking} />
+    <div className="ai-assistant">
+  🤖 AI Assistant (voice mode active)
+</div>
   </div>
 
 </div>
